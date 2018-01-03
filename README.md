@@ -11,4 +11,4 @@ First install Haskell:
 
 2. Use the command 
 
-'''apm install language-haskell ide-haskell ide-haskell-cabal haskell-ghc-mod autocomplete-haskell'''
+```apm install language-haskell ide-haskell ide-haskell-cabal haskell-ghc-mod autocomplete-haskell```
