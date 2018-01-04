@@ -26,8 +26,9 @@ Make sure you have at least version 1.6.1 of Stack (I have 1.6.3). Before I was 
 During the first installation I received a warning that the location at which Stack is installed is not on my PATH environment variable. If this is the case just add it using
 ```sudo vim /etc/paths```.
  
-Then during the second installation I received Error: While constructing the build plan, along with the recommendation to use stack solver. In order to do so, first run
-```stack build cabal-install```
+Then during the second installation I received Error: While constructing the build plan, along with the recommendation to use stack solver. According to https://github.com/DanielG/ghc-mod/wiki/Installing#using-the-stack-tool, it is recommended to use cabal when installing ghc-mod. Now following this post:
+```cabal install cabal-install```. Then add ~/.cabal/bin to your PATH.
+
 
  
 [here](link "Stack Overflow Post")
