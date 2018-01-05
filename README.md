@@ -1,5 +1,5 @@
 # Haskell
-For my own reference (and anyone else in case this actually becomes useful):
+For my own reference (and for anyone else in case this actually becomes useful):
 
 UPDATE: After trying a bunch of different solutions for Atom I have (for the time being) quit. I am now using Sublime, following http://umairsaeed.com/blog/2015/05/02/sublime-text-and-haskell/. After running into issues with cabal I consulted https://www.schoolofhaskell.com/user/simonmichael/how-to-cabal-install#could-not-resolve-dependencies--cabal-hell.
 
@@ -14,7 +14,7 @@ Specifically, the steps I took were as follows (following the link above):
 
 Since, according to https://github.com/SublimeHaskell/SublimeHaskell, hsdev is the preferred backend, I then ran ```cabal install hsdev```.
 
-Haskell + Haskell-Atom Setup on Mac
+#START ATOM ATTEMPT
 
 To Download Atom: https://atom.io/. I am basically following https://atom-haskell.github.io/, but am modifying steps where I found necessary.
 
@@ -41,3 +41,6 @@ During the first installation I received a warning that the location at which St
  
 Then during the second installation I received Error: While constructing the build plan, along with the recommendation to use stack solver. According to https://github.com/DanielG/ghc-mod/wiki/Installing#using-the-stack-tool, it is recommended to use cabal when installing ghc-mod. Now following this post:
 ```cabal install cabal-install```. Then add ~/.cabal/bin to your PATH.
+
+
+#END ATOM ATTEMPT
