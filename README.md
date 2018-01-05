@@ -1,12 +1,14 @@
 # Haskell
 For my own reference (and anyone else in case this actually becomes useful):
 
+UPDATE: After trying a bunch of different solutions for Atom I have (for the time being) quit. I am now using Sublime, following http://umairsaeed.com/blog/2015/05/02/sublime-text-and-haskell/. After running into issues with cabal I consulted https://www.schoolofhaskell.com/user/simonmichael/how-to-cabal-install#could-not-resolve-dependencies--cabal-hell.
+
 Haskell + Haskell-Atom Setup on Mac
 
 To Download Atom: https://atom.io/. I am basically following https://atom-haskell.github.io/, but am modifying steps where I found necessary.
 
 1. To install Haskell:
-Go to https://www.haskell.org/platform/prior.html and download version 8.0.2. The reason for using this older version will become apparent later.
+Go to https://www.haskell.org/platform/prior.html and download version 8.0.2. This is because I was running into issues with Atom's haskell-ghc-mod not having support for version 8.2.2.
 
 2. Use the command 
 
