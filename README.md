@@ -3,6 +3,17 @@ For my own reference (and anyone else in case this actually becomes useful):
 
 UPDATE: After trying a bunch of different solutions for Atom I have (for the time being) quit. I am now using Sublime, following http://umairsaeed.com/blog/2015/05/02/sublime-text-and-haskell/. After running into issues with cabal I consulted https://www.schoolofhaskell.com/user/simonmichael/how-to-cabal-install#could-not-resolve-dependencies--cabal-hell.
 
+Specifically, the steps I took were as follows (following the link above):
+
+1. Install the Haskell platform. (8.2.2 this time)
+2. Issue cabal update to update the list of available packages for Haskell. (```cabal update```)
+3. Install the requisite packages by issuing ```cabal install aeson haskell-src-exts haddock hdevtools```.
+4. Install Sublime Text 3.
+5. Install Package Control for Sublime Text 3.
+6. Install SublimeHaskell via Package Control.
+
+Since, according to https://github.com/SublimeHaskell/SublimeHaskell, hsdev is the preferred backend, I then ran ```cabal install hsdev```.
+
 Haskell + Haskell-Atom Setup on Mac
 
 To Download Atom: https://atom.io/. I am basically following https://atom-haskell.github.io/, but am modifying steps where I found necessary.
