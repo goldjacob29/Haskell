@@ -30,7 +30,3 @@ During the first installation I received a warning that the location at which St
  
 Then during the second installation I received Error: While constructing the build plan, along with the recommendation to use stack solver. According to https://github.com/DanielG/ghc-mod/wiki/Installing#using-the-stack-tool, it is recommended to use cabal when installing ghc-mod. Now following this post:
 ```cabal install cabal-install```. Then add ~/.cabal/bin to your PATH.
-
-
- 
-[here](link "Stack Overflow Post")
